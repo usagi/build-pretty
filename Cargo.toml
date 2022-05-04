@@ -1,0 +1,18 @@
+[package]
+name = "build-pretty"
+authors = ["USAGI.NETWORK / Usagi Ito <the@usagi.network>"]
+categories = ["development-tools::debugging"]
+description = "Pretty to your custom Build Script(build.sh) log displaying!"
+documentation = "https://docs.rs/build-pretty/"
+edition = "2021"
+keywords = ["build", "script", "custom", "pretty", "log"]
+license = "MIT"
+repository = "https://github.com/usagi/build-pretty"
+version = "1.0.0"
+
+[dependencies]
+thiserror = "1.0.31"
+rust-i18n = "0.5.2"
+retrieve = "1.1.1"
+# for rust-i18n proc_macro
+lazy_static = "1.4.0"

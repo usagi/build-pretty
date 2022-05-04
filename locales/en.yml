@@ -1,0 +1,10 @@
+en:
+  message_warning_notice: "Notice. This output is probably, actually not a `warning`. It is marked `warning` because there is currently no other good way to display the message with this build method, but don't worry about it. 🤣"
+  message_process_begin: "=== build【{cargo_pkg_name} v{cargo_pkg_version}】⏩{build_type} :: begin ==="
+  message_process_end: "=== build【{cargo_pkg_name} v{cargo_pkg_version}】⏩{build_type} :: end   ==="
+  message_task_begin: " 🚧 task({task_index}/{total_tasks}): 《{task_name}》"
+  message_task_body: " ➕ {task_message}"
+  message_task_succeeded: " 💚 Succeeded! 🎉"
+  message_task_error: " 🚨 《{task_name}》"
+  message_task_error_notice: " 🔺 An unexpected error occurred during 《{task_name}》."
+  message_safe_panic: " For safety reasons, this build process is forced to stop by `panic`. It might be not a bug of build-pretty lib crate, please check your custom build process first."

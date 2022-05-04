@@ -1,0 +1,10 @@
+ja-JP:
+  message_warning_notice: "お知らせ: この出力は実際のところはおおよそおそらく `warning` ではありません。画面表示の都合で `warning` と表示されていますが気にしないで下さい。🤣"
+  message_process_begin: "=== ビルド【{cargo_pkg_name} v{cargo_pkg_version}】⏩{build_type} :: 開始 ==="
+  message_process_end: "=== ビルド【{cargo_pkg_name} v{cargo_pkg_version}】⏩{build_type} :: 完了 ==="
+  message_task_begin: " 🚧 task({task_index}/{total_tasks}): 《{task_name}》"
+  message_task_body: " ➕ {task_message}"
+  message_task_succeeded: " 💚 成功です! 🎉"
+  message_task_error: " 🚨 《{task_name}》"
+  message_task_error_notice: " 🔺 《{task_name}》 の途中で不慮のエラーが発生してしまいました。"
+  message_safe_panic: " 安全のためこのビルドプロセスは `panic` により強制停止されます。これはたぶん build-pretty ライブラリークレートの不具合ではありません。あなたのカスタムビルドプロセスを先に確認して下さい。"
